@@ -1,2 +1,2 @@
 # DeepOCR
-This is my college team project.
+This is an open source project.
