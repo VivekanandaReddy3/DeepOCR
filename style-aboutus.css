@@ -1,188 +1,88 @@
-* {
-    font-family: Nunito, sans-serif;
-  }
-  
-  .text-blk {
-    margin-top: 0px;
-    margin-right: 0px;
-    margin-bottom: 0px;
-    margin-left: 0px;
-    padding-top: 0px;
-    padding-right: 0px;
-    padding-bottom: 0px;
-    padding-left: 0px;
-    line-height: 25px;
-  }
-  
-  .responsive-container-block {
-    min-height: 75px;
-    height: fit-content;
-    width: 100%;
-    padding-top: 10px;
-    padding-right: 10px;
-    padding-bottom: 10px;
-    padding-left: 10px;
-    display: flex;
-    flex-wrap: wrap;
-    margin-top: 0px;
-    margin-right: auto;
-    margin-bottom: 0px;
-    margin-left: auto;
-    justify-content: flex-start;
-  }
-  
-  .responsive-container-block.bigContainer {
-    padding-top: 10px;
-    padding-right: 30px;
-    padding-bottom: 10px;
-    padding-left: 30px;
-    background-image: url("https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/bb29.png");
-    background-position-x: initial;
-    background-position-y: initial;
-    background-size: cover;
-    background-attachment: initial;
-    background-origin: initial;
-    background-clip: initial;
-    background-color: initial;
-    background-repeat-x: no-repeat;
-    background-repeat-y: no-repeat;
-  }
-  
-  .responsive-container-block.Container {
-    max-width: 800px;
-    flex-direction: column;
-    align-items: center;
-    padding-top: 20px;
-    padding-right: 20px;
-    padding-bottom: 20px;
-    padding-left: 20px;
-    margin-top: 150px;
-    margin-right: auto;
-    margin-bottom: 150px;
-    margin-left: auto;
-    background-color: white;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    border-bottom-right-radius: 10px;
-    border-bottom-left-radius: 10px;
-  }
-  
-  .text-blk.heading {
-    font-size: 36px;
-    line-height: 45px;
-    font-weight: 800;
-    margin-top: 0px;
-    margin-right: 0px;
-    margin-bottom: 30px;
-    margin-left: 0px;
-  }
-  
-  .text-blk.subHeading {
-    text-align: center;
-    font-size: 18px;
-    line-height: 26px;
-    margin-top: 0px;
-    margin-right: 0px;
-    margin-bottom: 60px;
-    margin-left: 0px;
-  }
-  
-  .socialIcon {
-    width: 33px;
-    height: 33px;
-  }
-  
-  .social-icons-container {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-  }
-  
-  .social-icon {
-    margin: 0 50px 0 50px;
-  }
-  
-  .social-icon:hover {
-    cursor: pointer;
-  }
-  
-  @media (max-width: 768px) {
-    .text-blk.heading {
-      font-size: 55px;
-      line-height: 65px;
-    }
-  
-    .text-blk.subHeading {
-      font-size: 18px;
-      line-height: 24px;
-    }
-  
-    .socialIcon {
-      width: 20px;
-      height: 20px;
-    }
-  
-    .text-blk.subHeading {
-      line-height: 27px;
-    }
-  
-    .text-blk.heading {
-      font-size: 32px;
-      line-height: 40px;
-      margin-top: 0px;
-      margin-right: 0px;
-      margin-bottom: 20px;
-      margin-left: 0px;
-    }
-  
-    .social-icon {
-      margin: 0 25px 0 25px;
-    }
-  }
-  
-  @media (max-width: 500px) {
-    .responsive-container-block.bigContainer {
-      padding-top: 10px;
-      padding-right: 20px;
-      padding-bottom: 10px;
-      padding-left: 20px;
-    }
-  
-    .text-blk.heading {
-      font-size: 45px;
-      line-height: 55px;
-      margin-top: 0px;
-      margin-right: 0px;
-      margin-bottom: 20px;
-      margin-left: 0px;
-    }
-  
-    .text-blk.subHeading {
-      font-size: 14px;
-      line-height: 22px;
-      margin-top: 0px;
-      margin-right: 0px;
-      margin-bottom: 30px;
-      margin-left: 0px;
-    }
-  
-    .social-icons-container {
-      flex-wrap: wrap;
-      align-items: center;
-      justify-content: center;
-    }
-  
-    .text-blk.subHeading {
-      font-size: 16px;
-      line-height: 23px;
-    }
-  
-    .text-blk.heading {
-      font-size: 26px;
-      line-height: 30px;
-    }
-  
-    .social-icon {
-      margin: 0 20px 0 20px;
-    }
-  }
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+.about-us{
+  height: 100vh;
+  width: 100%;
+  padding: 90px 0;
+  background: #ddd;
+}
+.pic{
+  height: auto;
+  width:  302px;
+}
+.about{
+  width: 1130px;
+  max-width: 85%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.text{
+  width: 540px;
+}
+.text h2{
+  font-size: 90px;
+  font-weight: 600;
+  margin-bottom: 10px;
+
+}
+.text h5{
+  font-size: 22px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+span{
+  color: #4070f4;
+}
+.text p{
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: 1px;
+}
+.data{
+  margin-top: 30px;
+}
+.hire{
+  font-size: 18px;
+  background: #4070f4;
+  color: #fff;
+  text-decoration: none;
+  border: none;
+  padding: 8px 25px;
+  border-radius: 6px;
+  transition: 0.5s;
+}
+.hire:hover{
+  background: #000;
+  border: 1px solid #4070f4;
+}
+
+/* Container to position the home icon */
+.home-icon-container {
+  position: fixed;
+  top: 10px; /* Adjust the top position as needed */
+  right: 10px; /* Adjust the right position as needed */
+  cursor: pointer;
+  z-index: 1000; /* Ensure it's on top of other elements */
+}
+
+/* Style for the home icon */
+.home-icon {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #333; /* Adjust the color as needed */
+}
+
+/* Style for the SVG icon */
+.home-icon svg {
+  width: 24px; /* Adjust the width as needed */
+  height: 24px; /* Adjust the height as needed */
+  margin-right: 5px; /* Adjust the margin as needed */
+}
